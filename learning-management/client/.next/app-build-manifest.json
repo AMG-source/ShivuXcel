@@ -21,6 +21,11 @@
       "static/chunks/main-app.js",
       "static/chunks/app/(dashboard)/teacher/profile/[[...profile]]/page.js"
     ],
+    "/(dashboard)/teacher/billing/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(dashboard)/teacher/billing/page.js"
+    ],
     "/(dashboard)/teacher/courses/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
