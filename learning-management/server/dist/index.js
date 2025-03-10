@@ -77,7 +77,11 @@ app.use(helmet_1.default.crossOriginResourcePolicy({ policy: "cross-origin" }));
 app.use((0, morgan_1.default)("common"));
 app.use(body_parser_1.default.json());
 app.use(body_parser_1.default.urlencoded({ extended: false }));
-app.use((0, cors_1.default)());
+app.use((0, cors_1.default)({
+    origin: "*", // Allow all origins
+    methods: "GET,POST,PUT,DELETE", // Allow specific HTTP methods
+    allowedHeaders: "Content-Type,Authorization" // Allow specific headers
+}));
 app.use((0, express_2.clerkMiddleware)());
 /* ROUTES */
 app.get("/", (req, res) => {

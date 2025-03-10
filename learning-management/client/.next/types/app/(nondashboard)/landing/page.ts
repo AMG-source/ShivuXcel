@@ -1,4 +1,4 @@
-// File: G:\ProjectFinal\learning-management\client\src\app\(nondashboard)\landing\page.tsx
+// File: /home/dosh/Downloads/Archive/ShivuXcel/learning-management/client/src/app/(nondashboard)/landing/page.tsx
 import * as entry from '../../../../../src/app/(nondashboard)/landing/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
